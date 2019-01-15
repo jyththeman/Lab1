@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-    
+    <center>
 <?php  
 
 function rand_Pass($upper = 1, $lower = 5, $numeric = 3, $other =2){
@@ -31,6 +31,7 @@ function rand_Pass($upper = 1, $lower = 5, $numeric = 3, $other =2){
 }
     echo "\n". "Generated Password : ".rand_Pass()."\n";
 ?>  
+        </center>
     
 </body>
 </html>
